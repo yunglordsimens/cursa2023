@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class='home-page light-bg text-dark'>
+    <header>
+        <div class="topnav light-bg text-dark">
+            <div id="closed-nav">
+                <a href="index.html" class="font-sm text-dark">Головна</a>
+                <a href="javascript:void(0);" onclick="myFunction()">
+                    <i class="font-sm text-dark">Меню</i>
+                </a>
+            </div>
+            <div id="myLinks">
+                <div class="d-flex flex-wrap">
+                    <a href="01.html" class="font-sm">/01 ВСТУП ДО JAVASCRIPT</a>
+                    <a href="02.html" class="font-sm">/02 ОСНОВИ JAVASCRIPT</a>
+                    <a href="03.html" class="font-sm">/03 РОБОТА З DOM
+                        (Document Object Model)</a>
+                    <a href="04.html" class="font-sm">/04 АСИНХРОННЕ ПРОГРАМУВАННЯ
+                        З JAVASCRIPT</a>
+                    <a href="05.html" class="font-sm">/05 ВІДЛАДКА І ОПТИМІЗАЦІЯ
+                        JAVASCRIPT-КОДУ</a>
+                    <a href="06.html" class="font-sm">/06 РЕСУРСИ
+                        ДЛЯ ВИВЧЕННЯ JAVASCRIPT </a>
+                    <a onclick="myFunction()" class="font-sm">Х</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1 class="font-xl mb-1">0/2</h1>
+            <div class="font-xl mb-5">ОСНОВИ МОВИ JAVASCRIPT</div>
+            <div class="d-flex justify-content-between mb-5 section-desc">
+                <h1 class="font-xl text-danger w-35">СИНТАКСИС JAVASCRIPT </h1>
+                <p class="font-sm w-35">JavaScript використовує синтаксис, схожий на інші мови програмування, такі як C,
+                    C++ або Java. Основні елементи синтаксису JavaScript включають в себе:
+
+                    Використання крапки з комою (;) як роздільника між виразами.
+
+                    Використання фігурних дужок ({}) для блоків коду.
+
+                    Використання подвійних лапок (") або одинарних лапок (') для оголошення рядків.
+
+                    Користування ключових слів, таких як if, for, while, function, для створення умовних конструкцій,
+                    циклів та функцій.</p>
+            </div>
+            <div class="d-flex justify-content-between mb-5 section-desc">
+                <p class="font-m w-35"></p>
+                <div class="w-35 section-info">
+                    <p class="font-m">ФУНКЦІЇ ТА ОБЛАСТІ ВИДИМОСТІ</p>
+                    <p class="font-sm">У JavaScript ви можете оголошувати функції, які виконують певні дії. Функції
+                        можуть приймати параметри і повертати значення. Ви можете оголошувати функції за допомогою
+                        ключового слова function.
+
+                        JavaScript також використовує області видимості для змінних. Змінні можуть мати глобальну
+                        область видимості або область видимості, обмежену блоком коду. Оголошення змінних внутрішньо
+                        функцій можуть мати локальну область видимості, що означає, що вони доступні лише всередині цієї
+                        функції.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="d-flex justify-content-between mb-5 section-desc">
+                <div class="w-35 section-info">
+                    <p class="font-m">УМОВНІ ОПЕРАЦІЇ ТА ЦИКЛИ</p>
+                    <p class="font-sm">У JavaScript ви можете використовувати умовні конструкції для прийняття рішень в
+                        залежності від певних умов. Ключові слова if, else if та else дозволяють вам визначати умовні
+                        вирази.
+
+                        JavaScript також підтримує різні цикли, такі як цикл for, цикл while та цикл do while. Цикли
+                        дозволяють вам виконувати блок коду декілька разів, залежно від певних умов.</p>
+                </div>
+                <div class="w-35 section-info">
+                    <p class="font-m">МАСИВИ І ОБ’ЄКТИ</p>
+                    <p class="font-sm">Масиви в JavaScript є упорядкованими списками значень, які можуть містити
+                        елементи будь-якого типу даних. Ви можете створити масив за допомогою квадратних дужок [] і
+                        заповнити його елементами.
+
+                        Об'єкти в JavaScript є колекціями ключ-значення пар. Ви можете створити об'єкт за допомогою
+                        фігурних дужок {} і додати в нього властивості.
+
+                        Масиви і об'єкти дозволяють вам зберігати та організовувати дані для подальшої обробки в
+                        JavaScript.</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between mb-5 section-desc">
+                <div class="w-35 section-info">
+                    <p class="font-m">ЗМІННІ, ТИПИ ДАНИХ І ОПЕРАТОРИ</p>
+                    <p class="font-sm">JavaScript має динамічну типізацію, що означає, що ви можете присвоювати різні
+                        типи даних змінним без явного оголошення типу. Ви можете використовувати ключове слово var, let
+                        або const для оголошення змінних. JavaScript має такі типи даних:
+
+                        Числа (number): цілі числа та числа з плаваючою комою.
+
+                        Рядки (string): послідовності символів, оголошуються в лапках.
+
+                        Булеві значення (boolean): true або false.
+
+                        Масиви (array): упорядковані списки значень.
+
+                        Об'єкти (object): зберігання ключ-значення пар.
+
+                        JavaScript також має різні оператори, такі як арифметичні оператори (+, -, *, /), оператори
+                        порівняння (>, <,===, !==) та логічні оператори (&&, ||, !).</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="d-flex justify-content-between">
+            <a href="01.html" class="d-flex flex-column font-sm nav-btm text-dark"><span>
+                    Попередня
+                </span>
+                <strong>&#8592;</strong></a>
+            <a href="03.html" class="d-flex flex-column font-sm nav-btm text-dark"><span>
+                    Наступна
+                </span>
+                <strong>&#8594;</strong></a>
+        </div>
+
+    </main>
+
+    <footer class="light-bg font-sm">
+        <p>&copy; 2023 </p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

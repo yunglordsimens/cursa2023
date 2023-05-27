@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class='home-page light-bg text-dark'>
+    <header>
+        <div class="topnav light-bg text-dark">
+            <div id="closed-nav">
+                <a href="index.html" class="font-sm text-dark">Головна</a>
+                <a href="javascript:void(0);" onclick="myFunction()">
+                    <i class="font-sm text-dark">Меню</i>
+                </a>
+            </div>
+            <div id="myLinks">
+                <div class="d-flex flex-wrap">
+                    <a href="01.html" class="font-sm">/01 ВСТУП ДО JAVASCRIPT</a>
+                    <a href="02.html" class="font-sm">/02 ОСНОВИ JAVASCRIPT</a>
+                    <a href="03.html" class="font-sm">/03 РОБОТА З DOM
+                        (Document Object Model)</a>
+                    <a href="04.html" class="font-sm">/04 АСИНХРОННЕ ПРОГРАМУВАННЯ
+                        З JAVASCRIPT</a>
+                    <a href="05.html" class="font-sm">/05 ВІДЛАДКА І ОПТИМІЗАЦІЯ
+                        JAVASCRIPT-КОДУ</a>
+                    <a href="06.html" class="font-sm">/06 РЕСУРСИ
+                        ДЛЯ ВИВЧЕННЯ JAVASCRIPT </a>
+                    <a onclick="myFunction()" class="font-sm">Х</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1 class="font-xl">0/4</h1>
+            <div class="font-xl">АСИНХРОННЕ ПРОГРАМУВАННЯ</div>
+            <div class="font-xl mb-5">З JAVASCRIPT</div>
+            <div class="d-flex justify-content-between mb-5 section-desc">
+                <p class="font-m w-35">РОБОТА ЗІ ЗВОРОТНІМ ВИКЛИКОМ (callback)</p>
+                <p class="font-sm w-35">Зворотні виклики (callbacks) є одним із способів роботи з асинхронним кодом в
+                    JavaScript. Вони дозволяють передати функцію в якості аргументу до іншої функції і викликати її,
+                    коли асинхронна операція завершена. Функція зворотного виклику викликається з результатом
+                    асинхронної операції, що дозволяє вам обробляти дані або виконувати інші дії.</p>
+            </div>
+            <div class="d-flex justify-content-between mb-2 section-desc">
+                <p class="font-m w-35">ВИКОРИСТАННЯ ОБІЦЯНОК (promises)</p>
+                <p class="font-sm w-35">Обіцянки (promises) є новішим підходом до асинхронного програмування в
+                    JavaScript. Вони є об'єктами, які представляють результат асинхронної операції, що може бути
+                    успішним (resolved) або неуспішним (rejected). Ви можете прикріпити обробники (handlers) до
+                    обіцянки, щоб обробити результат асинхронної операції коли вона завершиться. Обіцянки дозволяють
+                    зручно ланцюжити асинхронні операції і обробляти помилки.</p>
+            </div>
+            <div class="d-flex justify-content-between mb-2 section-desc">
+                <p class="font-m w-35">РОБОТА З АСИНХРОННИМ КОДОМ (async/await)</p>
+                <p class="font-sm w-35">async/await є синтаксичним підходом до асинхронного програмування, що базується
+                    на обіцянках. Ви можете використовувати ключові слова async і await для позначення асинхронних
+                    функцій і очікування результату асинхронної операції. Асинхронна функція повертає обіцянку, і ви
+                    можете отримати результат за допомогою ключового слова await, що дозволяє вам писати асинхронний
+                    код, який виглядає подібно до синхронного.</p>
+            </div>
+        </section>
+
+        <div class="d-flex justify-content-between">
+            <a href="03.html" class="d-flex flex-column font-sm nav-btm text-dark"><span>
+                    Попередня
+                </span>
+                <strong>&#8592;</strong></a>
+            <a href="05.html" class="d-flex flex-column font-sm nav-btm text-dark"><span>
+                    Наступна
+                </span>
+                <strong>&#8594;</strong></a>
+        </div>
+
+    </main>
+
+    <footer class="light-bg font-sm">
+        <p>&copy; 2023 </p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

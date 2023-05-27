@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class='home-page light-bg text-dark'>
+    <header>
+        <div class="topnav light-bg text-dark">
+            <div id="closed-nav">
+                <a href="index.html" class="font-sm text-dark">Головна</a>
+                <a href="javascript:void(0);" onclick="myFunction()">
+                    <i class="font-sm text-dark">Меню</i>
+                </a>
+            </div>
+            <div id="myLinks">
+                <div class="d-flex flex-wrap">
+                    <a href="01.html" class="font-sm">/01 ВСТУП ДО JAVASCRIPT</a>
+                    <a href="02.html" class="font-sm">/02 ОСНОВИ JAVASCRIPT</a>
+                    <a href="03.html" class="font-sm">/03 РОБОТА З DOM
+                        (Document Object Model)</a>
+                    <a href="04.html" class="font-sm">/04 АСИНХРОННЕ ПРОГРАМУВАННЯ
+                        З JAVASCRIPT</a>
+                    <a href="05.html" class="font-sm">/05 ВІДЛАДКА І ОПТИМІЗАЦІЯ
+                        JAVASCRIPT-КОДУ</a>
+                    <a href="06.html" class="font-sm">/06 РЕСУРСИ
+                        ДЛЯ ВИВЧЕННЯ JAVASCRIPT </a>
+                    <a onclick="myFunction()" class="font-sm">Х</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1 class="font-xl mb-1">0/1</h1>
+            <div class="font-xl mb-5">ВСТУП ДО JAVASCRIPT</div>
+            <div class="d-flex justify-content-between mb-5 section-desc">
+                <p class="font-m w-35">ЩО ТАКЕ JAVASCRIPT І ЯК ВОНА ПРАЦЮЄ</p>
+                <p class="font-sm w-35">JavaScript - це високорівнева, інтерпретована мова програмування, яка зазвичай
+                    використовується для розробки веб-додатків та динамічного змісту на веб-сторінках. Вона надає
+                    можливість взаємодіяти з користувачем та керувати веб-сторінками в реальному часі.</p>
+            </div>
+            <div class="d-flex justify-content-between mb-2 section-desc">
+                <p class="font-m w-35">ІСТОРІЯ РОЗВИТКУ JAVASCRIPT</p>
+                <p class="font-sm w-35">JavaScript була розроблена Бренданом Айком у 1995 році. Початково, вона
+                    називалася LiveScript, але пізніше була перейменована в JavaScript. Вона отримала широке визнання та
+                    популярність завдяки своїм можливостям для веб-розробки.</p>
+            </div>
+            <div class="d-flex justify-content-between mb-5 section-desc">
+                <p class="font-m w-35"></p>
+                <p class="font-sm w-35"> Одним з ключових моментів в історії JavaScript було створення стандарту
+                    ECMAScript, який визначає специфікацію мови. ECMAScript 6 (ES6), випущений у 2015 році, вніс багато
+                    нових можливостей та поліпшень, що дозволило розробникам писати більш сучасний та ефективний код.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h1 class="font-xl text-danger mb-5">ПЕРЕВАГИ ВИКОРИСТАННЯ JAVASCRIPT У WEB-РОЗРОБЦІ</h1>
+            <div class="d-flex justify-content-between mb-5 section-desc">
+                <div class="w-35 section-info">
+                    <p class="font-m">/01 ІНТЕРАКТИВНІСТЬ
+                        ТА ДИНАМІКА</p>
+                    <p class="font-sm">JavaScript дозволяє створювати веб-сторінки зі змінним та інтерактивним змістом.
+                        Ви можете реагувати на події, валідувати дані, анімувати об'єкти та багато іншого, що поліпшує
+                        користувацький досвід.</p>
+                </div>
+                <div class="w-35 section-info">
+                    <p class="font-m">/02 КЛІЄНТ-СЕРВЕРНА
+                        ВЗАЄМОДІЯ</p>
+                    <p class="font-sm">JavaScript дозволяє здійснювати взаємодію з сервером без необхідності оновлення
+                        всієї сторінки. Це забезпечує швидку та безшовну комунікацію з сервером, підвищуючи
+                        продуктивність та реагування веб-додатка.</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between mb-5 section-desc">
+                <div class="w-35 section-info">
+                    <p class="font-m">/03 ПІДТРИМКА ВСІМА СУЧАСНИМИ БРАУЗЕРАМИ</p>
+                    <p class="font-sm">JavaScript підтримується всіма популярними веб-браузерами, такими як Chrome,
+                        Firefox, Safari і Edge. Це означає, що ви можете створювати веб-додатки, які працюють на
+                        будь-якому браузері без необхідності установки додаткових плагінів або розширень.</p>
+                </div>
+                <div class="w-35 section-info">
+                    <p class="font-m">/04 ВЕЛИКА СПІЛЬНОТА
+                        РОЗРОБНИКІВ</p>
+                    <p class="font-sm">JavaScript має велику та активну спільноту розробників, що означає, що ви зможете
+                        знайти безліч ресурсів, документації, форумів та підтримки для вивчення та вдосконалення своїх
+                        навичок.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="d-flex justify-content-between">
+            <a href="index.html" class="d-flex flex-column font-sm nav-btm text-dark"><span>
+                    Попередня
+                </span>
+                <strong>&#8592;</strong></a>
+            <a href="02.html" class="d-flex flex-column font-sm nav-btm text-dark"><span>
+                    Наступна
+                </span>
+                <strong>&#8594;</strong></a>
+        </div>
+
+    </main>
+
+    <footer class="light-bg font-sm">
+        <p>&copy; 2023 </p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
